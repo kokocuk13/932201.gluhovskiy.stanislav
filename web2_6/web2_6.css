@@ -1,0 +1,17 @@
+{
+    box-sizing: border-box;
+}
+
+.upper-box {
+width: 500px;
+margin: 2px auto;
+}
+
+.lower-box {
+    width: 500px;
+    margin: 20px auto;
+    padding: 50px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: blue;
+}

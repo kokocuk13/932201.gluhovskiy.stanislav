@@ -1,0 +1,60 @@
+{
+    box-sizing: border-box;
+    color: #EAEAEA
+;
+}
+
+.static {
+width: 148px;
+height: 96px;
+background-color: blueviolet;
+padding: 0 auto;
+position:static; 
+}
+
+.relative-upper {
+width: 148px;
+height: 96px;
+background-color: darkred;
+padding: 0 auto;
+position: relative;
+}
+
+.relative-mid {
+width: 148px;
+height: 96px;
+background-color: peru;
+margin-bottom: 100;
+position: relative;
+bottom: 32px;
+left: 32px;
+z-index: 1;
+}
+
+.relative-parent {
+    width: 600px;
+    height: 420px;
+    background-color: indianred;
+    position: relative;
+}
+
+.relative-child{
+width: 300px;
+height: 200px;
+background-color: indigo;
+margin-bottom: 100;
+position: absolute;
+bottom: 80px;
+right: 0px;
+z-index: 1;
+}
+
+.fixed {
+    background-color: forestgreen;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}

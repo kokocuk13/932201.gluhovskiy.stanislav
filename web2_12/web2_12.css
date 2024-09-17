@@ -1,0 +1,25 @@
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    background-color: aqua;
+    border: 1px solid green;
+}
+
+.headers {
+    float: left;
+    background-color: bisque;
+    width: calc(100px + 16vw);
+    height: 80px;
+    margin-right: 5px;
+    padding:10px;
+}
+
+.info {
+    display: inline-block;
+    background-color: gray;
+    width: calc(100vw - 415px);
+    min-width: 200px;
+} 

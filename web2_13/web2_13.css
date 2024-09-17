@@ -1,0 +1,37 @@
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    
+    position: absolute;
+    background-color: aqua;
+    border: 1px solid green;
+    margin: 10px;
+}
+
+.headers {
+    float: left;
+    background-color: bisque;
+    width: 20%;
+    height: 85px;
+    padding: 10px;
+}
+
+.info {
+    display: inline-block;
+    right: 0;
+    background-color: gray;
+    width: 80%;
+    min-width: 200px;
+}
+
+img {
+    width: 35%;
+    float: right;
+}
+
+.pt2 {
+    clear: both;
+}
